@@ -24,7 +24,7 @@
 
 ### Мониторинг доступности контента.
 
-**[Скачать (Check-Web-Report.ps1)](https://github.com/Lifailon/CWeb/blob/rsa/Check-Web-Report.ps1)**
+**[Скачать (Check-Web-Report.ps1)](https://github.com/Lifailon/CWeb/blob/rsa/Scripts/Check-Web-Report.ps1)**
 
 Проверяется условие доступности контента на сайте, и в случае его отсутствия отправляем сообщение на почту. Функцию **Send-Yandex** используется для отправки сообщений на внешнюю почту (используется класс .NET: **System.Net.Mail.MailMessage**).
 
