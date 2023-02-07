@@ -30,6 +30,5 @@
 
 ![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-send-mail.jpg)
 
-С помощью метода **DateTime** можно мониторить дату окончания сертификата, используя указанный метод выше, можно настроить рассылку на почту. \
-Пример реализации вычисления завершения срока доступа: **[Excel-Date-Report)](https://github.com/Lifailon/Excel-Date-Report)**
+С помощью метода **DateTime** можно настроить мониторинг завершения срока действия сертификата. Пример реализации вычисления завершения срока доступа: **[Excel-Date-Report)](https://github.com/Lifailon/Excel-Date-Report)**
 
