@@ -12,4 +12,12 @@
 
 **Пример https проверки с полным доменным именем**. Для поиска контента на сайте использую слово ` signin ` (параметр по умолчанию), присутствует на многих сайтах, на примере, сервера RD Web Access (IIS) и Zabbix (Apache):
 
-![Image alt](https://github.com/Lifailon/Web-Check/blob/rsa/Screen/WCheck-https.jpg)
+![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-https.jpg)
+
+**Пример проверки по ip-адресу**. В случае с http выдаётся ошибка определения сертификата. При использовании полного url-адреса ` /zabbix ` мы получаем ` Content: Available `. Если мы используем https в связке с ip, можем прочитать сертификат, но не увидим контент, т.к. будет ошибка подключения: ` Your connection is not private `, которую в браузере можно проигнорировать.
+
+![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-ip.jpg)
+
+![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-send-mail.jpg)
+
+**[Скачать (Check-Web-Report.ps1)](https://github.com/Lifailon/CWeb/blob/rsa/Check-Web-Report.ps1)**
