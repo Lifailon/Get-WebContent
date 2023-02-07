@@ -12,7 +12,7 @@
 
 ### Пример https проверки с полным доменным именем.
 
-Для поиска контента на сайте использую слово ` signin ` (параметр по умолчанию), присутствует на многих сайтах, на примере, сервера RD Web Access (IIS) и Zabbix (Apache). В последнем примере на сайте не было найдено ` signin ` о чем сообщается ` Not Available `
+Для поиска контента на сайте использую слово ` signin ` (параметр по умолчанию), присутствует на многих сайтах, в примере сервера RD Web Access (IIS) и Zabbix (Apache). В последнем примере на сайте не было найдено словосочетания ` signin ` о чем сообщается: ` Not Available `.
 
 ![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-https.jpg)
 
@@ -22,6 +22,14 @@
 
 ![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-ip.jpg)
 
-![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-send-mail.jpg)
+### Мониторинг доступности контента.
 
 **[Скачать (Check-Web-Report.ps1)](https://github.com/Lifailon/CWeb/blob/rsa/Check-Web-Report.ps1)**
+
+Проверяется условие доступности контента на сайте. Подключем функцию **Send-Yandex** для отправки сообщения на внешнюю почту (используется класс .NET: **System.Net.Mail.MailMessage**).
+
+![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-send-mail.jpg)
+
+С помощью метода **DateTime** можно мониторить дату окончания сертификата, используя указанный метод выше, можно настроить рассылку на почту. \
+Пример реализации вычисления завершения срока доступа: **[Excel-Date-Report)](https://github.com/Lifailon/Excel-Date-Report)**
+
