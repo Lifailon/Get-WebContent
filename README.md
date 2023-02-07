@@ -2,7 +2,7 @@
 
 **Модуль для быстрой проверки наличия указанного http/https контента с помощью GET-запроса, а так же валидности сертификата.**
 
-**[Скачать (cweb.psm1)](https://github.com/Lifailon/cweb/releases/tag/cweb)**
+**[Скачать (cweb.psm1)](https://github.com/Lifailon/CWeb/releases/tag/cweb)**
 
 **Синтаксис:**
 
