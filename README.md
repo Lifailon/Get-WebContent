@@ -1,6 +1,6 @@
 # CWeb
 
-**Модуль для быстрой проверки наличия указанного http/https контента с помощью GET-запроса, а так же валидности сертификата.**
+Модуль для быстрой проверки наличия указанного http/https контента с помощью GET-запроса (в роли **API** выступаем cmdlet: **Invoke-WebRequest**), а так же валидности сертификата с помощью класса .NET: **System.Net.ServicePointManager**.
 
 **[Скачать (cweb.psm1)](https://github.com/Lifailon/CWeb/releases/tag/cweb)**
 
