@@ -30,4 +30,4 @@
 
 ![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-send-mail.jpg)
 
-С помощью **DateTime** можно настроить мониторинг срока действия сертификата. Пример реализации: **[Excel-Date-Report)](https://github.com/Lifailon/Excel-Date-Report)**
+С помощью **DateTime** можно настроить мониторинг срока действия сертификата. Пример реализации: **[Excel-Date-Report](https://github.com/Lifailon/Excel-Date-Report)**
