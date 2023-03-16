@@ -26,7 +26,7 @@
 
 Проверяется условие доступности контента, и в случае его отсутствия отправляем сообщение в Teleram, используя метод **REST**.
 
-**Скачать скрипт (Get-WebContent-Telegram.ps1)]https://github.com/Lifailon/Get-WebContent/blob/rsa/Scripts/Get-WebContent-Telegram.ps1)**
+**Скачать скрипт [(Get-WebContent-Telegram.ps1)]https://github.com/Lifailon/Get-WebContent/blob/rsa/Scripts/Get-WebContent-Telegram.ps1)**
 
 ![Image alt](https://github.com/Lifailon/Get-WebContent/blob/rsa/Screen/Report-Rest-Telegram.jpg)
 
