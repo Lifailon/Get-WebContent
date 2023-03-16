@@ -8,26 +8,26 @@
 ` Get-Help Get-WebContent.psm1 ` \
 ` Get-WebContent https://ya.ru sign `
 
-**[Скачать модуль (Check-Web-Report.ps1)](https://github.com/Lifailon/CWeb/blob/rsa/Scripts/Check-Web-Report.ps1)**
+**[Скачать модуль (Check-Web-Report.ps1)](https://github.com/Lifailon/Get-WebContent/releases)**
 
 ### Пример https проверки с полным доменным именем.
 
 Для поиска контента на сайте используется слово ` sign ` (параметр по умолчанию), присутствует на многих сайтах, в примере сервер Zabbix (Apache) и RD Web Access (IIS). В последнем случае на сайте не было найдено словосочетания ` test ` о чем сообщается: ` Not available `.
 
-![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-https.jpg)
+![Image alt](https://github.com/Lifailon/Get-WebContent/blob/rsa/Screen/Get-WebContent-Example.jpg)
 
 ### Пример проверки по ip-адресу.
 
 В случае с http возращается ошибка определения сертификата, при этом используя полный url-адреса ` /zabbix ` мы получаем ` Content: Available `. Если мы используем https в связке с ip, можем прочитать сертификат, но не увидим контент, т.к. происходит ошибка подключения - **не удалось установить доверительные отношения для защищенного канала SSL/TLS**, такую ошибку: ` Your connection is not private ` в браузере можно проигнорировать.
 
-![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-ip.jpg)
+![Image alt](https://github.com/Lifailon/Get-WebContent/blob/rsa/Screen/Get-WebContent-Example-ip.jpg)
 
 ### Мониторинг доступности контента.
 
-**[Скачать скрипт (Check-Web-Report.ps1)](https://github.com/Lifailon/CWeb/blob/rsa/Scripts/Check-Web-Report.ps1)**
+**[Скачать скрипт (Get-WebContent-Telegram.ps1)]https://github.com/Lifailon/Get-WebContent/blob/rsa/Scripts/Get-WebContent-Telegram.ps1)**
 
 Проверяется условие доступности контента на сайте, и в случае его отсутствия отправляем сообщение в Teleram, используя метод **REST**.
 
-![Image alt](https://github.com/Lifailon/CWeb/blob/rsa/Screen/cweb-send-mail.jpg)
+![Image alt](https://github.com/Lifailon/Get-WebContent/blob/rsa/Screen/Report-Rest-Telegram.jpg)
 
 С помощью **DateTime** можно настроить мониторинг срока действия сертификата. Пример реализации: **[Excel-Date-Report](https://github.com/Lifailon/Excel-Date-Report)**
