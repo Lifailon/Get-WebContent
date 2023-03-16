@@ -8,7 +8,7 @@
 ` Get-Help Get-WebContent.psm1 ` \
 ` Get-WebContent https://ya.ru sign `
 
-**[Скачать модуль (Check-Web-Report.ps1)](https://github.com/Lifailon/Get-WebContent/releases)**
+**[Скачать модуль (Get-WebContent.psm1)](https://github.com/Lifailon/Get-WebContent/releases)**
 
 ### Пример https проверки с полным доменным именем.
 
